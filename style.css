@@ -1,0 +1,9 @@
+/* make the canvas fill the screen */
+canvas {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+
+
