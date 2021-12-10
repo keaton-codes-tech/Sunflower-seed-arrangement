@@ -5,6 +5,9 @@ const description =
 const canvas = document.createElement('canvas');
 const ctx = canvas.getContext('2d');
 
+// Dots Colour
+const dotsColour = 'red';
+
 // Append the canvas to the body
 document.body.appendChild(canvas);
 
@@ -12,7 +15,7 @@ document.body.appendChild(canvas);
 let width = (canvas.width = window.innerWidth);
 let height = (canvas.height = window.innerHeight);
 
-ctx.fillStyle = 'red';
+ctx.fillStyle = dotsColour;
 
 // Set up the canvas line width
 ctx.lineWidth = 1;
@@ -112,7 +115,7 @@ sliderTitle.style.right = '40px';
 
 // function to reset the variables
 function resetVariables() {
-    ctx.fillStyle = 'red';
+    ctx.fillStyle = dotsColour;
     angle = 0;
     numberOfBends = 0;
 }
