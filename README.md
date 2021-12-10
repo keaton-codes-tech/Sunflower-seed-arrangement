@@ -7,4 +7,4 @@ No webserver needed
 
 ![Screenshot](screenie.png)
 
-Inspired from this discussion ![link to external discussion](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibnat2.html)
+Inspired from [this discussion](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibnat2.html)
